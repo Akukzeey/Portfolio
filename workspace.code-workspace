@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..//project 7"
+		},
+		{
+			"path": "..\\project 8"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Farouk Ahmed",
+		"liveServer.settings.port": 5501
+	}
+}

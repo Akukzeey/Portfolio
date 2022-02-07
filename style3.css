@@ -1,0 +1,236 @@
+
+  
+body { 
+    font-family: 'Roboto', sans-serif;
+background-image: url(); 
+ color: white;
+  font-size: 1.125rem; 
+  background-image: linear-gradient(rgb(208,69,64),rgb(246,169,139));
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+header {
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom:1px solid lightgrey ;
+}
+
+main {
+padding-top: 20px;
+padding-bottom: 20px;
+display: flex;
+align-items: center;
+
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+
+.cards {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+    .cards1 {
+        width: 30%;
+        background-image: url(images/jerome-UQ2tdRz8YvA-unsplash.jpg);
+        background-size: cover;
+        background-position: bottom;
+        min-height: 250px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479); 
+    }
+    .cards2 {
+        width: 30%;
+        min-height: 250px;
+        background-image: url(images/raoul-croes-5FYhb_gWDjg-unsplash.jpg);
+        background-size: cover;
+        background-position: bottom;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+    }
+        
+    
+
+    .cards3 {
+        width: 30%;
+        min-height: 250px;
+        background-image:url(images/thomas-jarrand-t5VZKeveQwI-unsplash.jpg);
+        background-position: bottom;
+        background-size: cover;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+    }
+
+.card1,.cards2,.cards3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+
+.herobox1 {
+    flex: 2;
+      padding-right:100px  ;
+}
+
+.herobox2 {
+  flex: 1;
+ }
+   
+h1{
+font-size: 80px;
+font-family: 'Roboto', sans-serif;
+font-size: 3.25rem;
+margin-bottom: 1rem;
+text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.479);
+
+
+
+}
+
+h2{
+    font-size: 2rem;
+    font-family:'Roboto', sans-serif ;
+    margin-top:20px;
+}
+ 
+p {
+    line-height: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    margin-top:10px;
+}
+         
+.cards i{
+    font-size: 100px;
+    
+}
+
+.mybutton{
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    padding:11px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.479);
+
+}
+
+.mybutton:hover {
+    background-color: rgb(25, 216, 25);
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 20px;
+}
+nav a.mybutton{
+    margin-left: 30px;
+}
+
+.navbutton {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding:11px 25px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.testimonials {
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/*.tbox :last-child{
+    font-size: .8rem;
+}*/
+
+.tbox  p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+.dropdown{
+    display: none; 
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+}
+
+.dropdown .navbutton{
+    width: 120px;
+    background-color: white;
+}
+
+
+
+.dropdown  .navbutton a{
+color: crimson;
+}
+
+
+.inputwrapper{
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea{
+padding: 12px 20px;
+width: 100%;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1rem;
+box-sizing: border-box; 
+}
+
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a{
+    margin-right: 10px;
+}
+
+form{
+    
+margin:40px 0px;
+    
+}
